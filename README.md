@@ -1,11 +1,7 @@
-# HOHM Bisap investor deck
+# HOHM beverage proposals
 
-Live: https://hohm-ruby.vercel.app/
+Buildless static site. Root: proposal directory. `/bisap`: preserved hibiscus proposal. `/baobab`: separate Bouye ready-to-drink fruit nectar proposal, research and standalone $350,000 illustrative investment model.
 
-Static HTML/CSS/JS. Revised November 23, 2026.
+Vercel clean URLs. Shared assets and styles use absolute paths. Baobab forecast inputs: `baobab/financial-model.json`; Bisap inputs: `financial-model.json`. Supplier listings are benchmarks, not quotes.
 
-Current commercial planning model is recorded in financial-model.json. Retail $4.99, direct wholesale $3.00, Year 1 COGS target $1.85, contribution $0.80. Case 12 bottles; planning pallet 100 cases, physical configuration subject to validation. Proposed raise $300,000.
-
-Public price references are linked in the page and distinguished from company targets. Contracted 355 mL filling costs remain quote-dependent. No actual sales or guaranteed returns represented.
-
-Licensed image credits appear in the page. No package manager or build step.
+Baobab photo by T.K. Naliaka, CC BY-SA 4.0; source and attribution in the proposal.

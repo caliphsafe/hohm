@@ -1,0 +1,61 @@
+{
+  "status": "Illustrative standalone baobab proposal; not actual results",
+  "retail": 5.99,
+  "wholesale": 3.6,
+  "case_bottles": 12,
+  "pallet_cases": 100,
+  "pulp_g": 15,
+  "pulp_cost_per_kg": 50,
+  "cogs": [
+    2.25,
+    2.36,
+    2.48
+  ],
+  "variable_selling": [
+    0.45,
+    0.47,
+    0.49
+  ],
+  "volumes": [
+    120000,
+    375000,
+    900000
+  ],
+  "fixed_opex": [
+    135000,
+    225000,
+    390000
+  ],
+  "revenue": [
+    432000,
+    1350000,
+    3240000
+  ],
+  "gross_profit": [
+    162000,
+    465000,
+    1008000
+  ],
+  "contribution": [
+    108000,
+    288750,
+    567000
+  ],
+  "operating_result": [
+    -27000,
+    63750,
+    177000
+  ],
+  "raise_amount": 350000,
+  "setup": 75000,
+  "working_capital": [
+    58500,
+    186250,
+    456000
+  ],
+  "ending_cash": [
+    189500,
+    125500,
+    32750
+  ]
+}
