@@ -1,21 +1,17 @@
-# HOHM Bisap investor presentation
+# HOHM Bisap investor deck
 
-Static investor and industry partner pitch for a proposed Senegalese hibiscus drink.
+Live: https://hohm-ruby.vercel.app/
 
-Production: https://hohm-ruby.vercel.app/
+Static HTML/CSS/JS; original HOHM brand assets.
 
-Built with HTML, CSS, and JavaScript; original HOHM PACK logos and fonts. No package manager or build step.
+## November 2026 revision
+Hibiscus benefits replace the unfinished product nutrition table. Research links include human studies and 2022/2025 reviews. No finished-drink therapeutic claims.
 
-## Content integrity
-- Bisap only; one proposed 355 mL beverage.
-- Detailed nutrition verification framework; no finished-product nutrition values supplied.
-- Added-sugar explorer calculates energy from added sugar only.
-- Published research is distinguished from HOHM product evidence.
-- All financial values are illustrative, unquoted planning assumptions.
-- Historical workbook projections are not operating results.
+## Financial planning model
+Proposed raise $200,000. One-time setup $60,000. Wholesale $2.40.
+Year 1/2/3: average accounts 100/250/500; bottles per account weekly 24/30/36; 50 weeks. Volumes 120000/375000/900000. COGS 1.25/1.31/1.38; selling costs .35/.37/.39; fixed expense 120000/210000/360000. Operating results -24000/60000/207000 before setup, interest, tax and depreciation.
+Cash bridge assumes one month revenue in receivables plus one month COGS in inventory, no supplier credit. Year-end cash 79500/60062.50/99500 before taxes, financing, distributions and additional capex. These are planning assumptions, not quotes or actual sales.
 
-## Controls
-Present deck enables Previous / Next and keyboard navigation. Sugar and cost/volume sliders update their scenarios. Partnership dialog provides a copyable discussion brief.
+Original presentation and workbook reviewed for beverage concept, channel strategy, historical economics and model structure. Historical forecasts are not current actuals.
 
-## Validation
-Run node --check app.js. Check internal links, source links, slider endpoints, presentation navigation, responsive layout, and dialog controls before release.
+Checks: JavaScript syntax, internal links, financial arithmetic, desktop rendering and presentation controls.
