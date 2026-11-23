@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hohm-ruby.vercel.app/sitemap.xml

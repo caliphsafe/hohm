@@ -1,6 +1,6 @@
 const chapters=[...document.querySelectorAll('.chapter')];let current=0;let costMode='target';
 const money=n=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(n);
-const decimal=n=>`$${(Math.round((n+Number.EPSILON)*100)/100).toFixed(2)}`;
+const decimal=n=>`$${(Math.round((n+1e-9)*100)/100).toFixed(2)}`;
 function calculate(){const q=Number(document.querySelector('#volume').value);const h=costMode==='target'?4.3:18.22/4+2.3;const b=costMode==='target'?7.3:27.99/4+2.3;const c=(h+b)/2;const net=13.49*(.6*.98+.4*.6*.95);const selling=.6*(13.49*.029+.15+1.5)+.4*.35;const contribution=net-c-selling;
  document.querySelector('#ingredient-h').textContent=decimal(h-2.3);document.querySelector('#ingredient-b').textContent=decimal(b-2.3);document.querySelector('#cogs-h').textContent=decimal(h);document.querySelector('#cogs-b').textContent=decimal(b);
  document.querySelector('#gm-h').textContent=((9.99-h)/9.99*100).toFixed(1)+'%';document.querySelector('#gm-b').textContent=((16.99-b)/16.99*100).toFixed(1)+'%';document.querySelector('#wh-h').textContent=((9.99*.6-h)/(9.99*.6)*100).toFixed(1)+'%';document.querySelector('#wh-b').textContent=((16.99*.6-b)/(16.99*.6)*100).toFixed(1)+'%';
